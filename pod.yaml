@@ -8,7 +8,7 @@ spec:
     image: muralisocial123/cart-page-test:1.0
     resources:
       limits:
-        memory: "100mi"
+        memory: "100Mi"
         cpu: "100m"
     ports:
       - containerPort: 3000
